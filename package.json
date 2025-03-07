@@ -1,0 +1,25 @@
+{
+  "name": "educaseindia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.x.x",
+    "express": "^4.x.x",
+    "joi": "^17.x.x",
+    "dotenv": "^16.x.x"
+  },
+  "devDependencies": {
+    "prisma": "^4.x.x",
+    "nodemon": "^2.x.x"
+  },
+  "author": "Nipun Jain",
+  "license": "ISC"
+}
